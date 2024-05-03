@@ -82,7 +82,7 @@
 
     1. <https://www.postgresql.org/docs/current/transaction-iso.html>
 
-       responsible for: `READ UNCOMITTED`, `READ COMMITTED`, and `REPEATABLE READ` isolation levels
+       responsible for: `READ UNCOMMITTED`, `READ COMMITTED`, and `REPEATABLE READ` isolation levels
 
        not (for this quiz) responsible for: `SERIALIZABLE` isolation level <!-- (because the differences `REPEATABLE READ` and `SERIALIZABLE` can't be realistically tested) -->
 
