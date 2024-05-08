@@ -71,7 +71,7 @@ Quiz:
            <img src=gnu+linux.jpg width=600px />
 
            See the [GNU+Linux copypasta](https://itsfoss.com/gnu-linux-copypasta/)
-        1. The Debian-Almquist shell (`dash`), written by Herbert Xu ini 1997; GPL-licensed
+        1. The Debian-Almquist shell (`dash`), written by Herbert Xu in 1997; GPL-licensed
 
             Dash is used on all Debian-based systems (including the lambda server) for system-wide scripts.
             it has fewer features than bash but is much faster.
@@ -79,7 +79,7 @@ Quiz:
 
     1. POSIX (= Portible Operating System Interface)
         1. All the shells above have slightly different behaviors
-        1. POSIX defines the a universal standard of minimal features that all shells must have
+        1. POSIX defines the universal standard of minimal features that all shells must have
         1. It's best to try to write POSIX-compliant scripts to ensure portability (and speed, since you can use `dash` to run the script)
         1. Lots of weird behaviors that result from needing backwards compatibilty
             1. These make programming seem easy, but actually super #?*!ing hard
